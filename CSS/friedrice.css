@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +17,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 img {
     border: 2px solid #333;
     border-radius: 2rem;
@@ -25,42 +32,8 @@ img {
     padding: auto;
 }
 
-h1 {
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
 ul {
     list-style-type: circle;
     margin: 25px;
     line-height: 2.5;
-}
-
-ol {
-    margin: 25px;
-    line-height: 2;
-}
-
-h3 {
-    line-height: 1.5;
-}
-
-p {
-    line-height: 1.5;
-}
-
-a {
-    color: #4682b4;
-    text-decoration: none;
-}
-
-a:visited {
-    color: rgb(163, 144, 197);
-}
-
-a:hover, a:active {
-    color: #eee;
-    background-color: rgb(1, 7, 12);
-    cursor: pointer;
 }
